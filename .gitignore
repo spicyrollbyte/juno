@@ -1,0 +1,34 @@
+# Environment & secrets
+.env
+.env.*
+*.env
+
+# Data (contains persisted tokens, account state, conversation logs)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Node
+web/node_modules/
+web/.next/
+web/.env
+web/.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
